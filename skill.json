@@ -1,0 +1,27 @@
+{
+  "name": "genpark-speakly-meeting-translator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Real-time multi-language meeting transcript normalizer.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "translation",
+    "meeting",
+    "multilingual"
+  ],
+  "inputs": {
+    "multilingual_transcript": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "unified_notes": {
+      "type": "string"
+    },
+    "speaker_count": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
